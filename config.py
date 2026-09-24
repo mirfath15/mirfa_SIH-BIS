@@ -16,7 +16,7 @@ import os
 # current recommended fast Gemini model, so this stays correct as Google
 # ships new versions. If you need a pinned/stable model for a demo/judging
 # day, set GEMINI_MODEL below to a fixed name (e.g. "gemini-2.5-flash").
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-flash-latest")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 
 # Low temperature keeps answers factual/consistent instead of creative -
 # important for a standards-compliance assistant.
